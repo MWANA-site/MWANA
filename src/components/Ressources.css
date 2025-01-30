@@ -1,0 +1,17 @@
+.ressources-container {
+    padding: 50px;
+    background-color: #f9f9f9;
+  }
+  
+  .ressources-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .ressources-container p {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #444;
+  }
+  

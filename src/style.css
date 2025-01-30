@@ -1,0 +1,142 @@
+/* Inclure TailwindCSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Styles globaux */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #e11d48;
+}
+
+/* Header */
+header {
+  @apply fixed w-full z-50 bg-white shadow-md;
+}
+
+header .container {
+  @apply flex items-center justify-between py-4 px-8;
+}
+
+header .logo {
+  @apply flex items-center text-lg font-bold text-rose-600;
+}
+
+header .logo img {
+  @apply mr-2;
+}
+
+header nav a {
+  @apply mx-4 text-sm font-medium text-gray-700;
+}
+
+header nav a:hover {
+  @apply text-rose-600;
+}
+
+header .don-button {
+  @apply bg-rose-600 text-white px-4 py-2 rounded-full text-sm font-medium;
+}
+
+header .don-button:hover {
+  @apply bg-rose-700;
+}
+
+/* Section Hero */
+#hero {
+  @apply relative h-screen flex justify-center items-center bg-cover bg-center;
+  background-image: url('/image/image.jpg');
+}
+
+#hero h1 {
+  @apply text-3xl text-white font-bold shadow-md;
+}
+
+#hero p {
+  @apply text-lg text-white mt-4 shadow-sm;
+}
+
+#hero .buttons {
+  @apply flex gap-4 mt-6;
+}
+
+#hero .buttons .don-button {
+  @apply bg-rose-600 text-white px-4 py-2 rounded-full text-sm font-medium;
+}
+
+#hero .buttons .don-button:hover {
+  @apply bg-rose-700;
+}
+
+#hero .buttons .info-button {
+  @apply bg-white text-gray-700 px-4 py-2 rounded-full text-sm font-medium;
+}
+
+#hero .buttons .info-button:hover {
+  @apply bg-gray-100;
+}
+
+/* Section Impact */
+#impact {
+  @apply py-16 px-8 bg-gray-100 text-center;
+}
+
+#impact h2 {
+  @apply text-3xl font-bold text-gray-800 mb-6;
+}
+
+#impact p {
+  @apply text-lg text-gray-600 mb-10;
+}
+
+#impact .grid {
+  @apply grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3;
+}
+
+#impact .card {
+  @apply bg-white p-6 rounded-lg shadow-md text-left;
+}
+
+#impact .card h3 {
+  @apply text-xl font-bold text-rose-600 mb-4;
+}
+
+#impact .card p {
+  @apply text-sm text-gray-600;
+}
+
+/* Footer */
+footer {
+  @apply bg-gray-800 text-white py-8 text-center;
+}
+
+footer a {
+  @apply text-rose-600;
+}
+
+footer a:hover {
+  @apply underline;
+}

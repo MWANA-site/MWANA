@@ -1,0 +1,41 @@
+#impact {
+    padding: 4rem 0;
+    background-color: hsl(234, 34%, 77%);
+    text-align: center;
+  }
+  
+  #impact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    justify-items: center;
+  }
+  
+  .impact-item {
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .impact-item .icon {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #e7214c;
+  }
+  
+  .impact-item h3 {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+  }
+  
+  .impact-item p {
+    font-size: 1rem;
+    color: #555;
+  }
+  

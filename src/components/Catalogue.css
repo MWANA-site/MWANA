@@ -1,0 +1,34 @@
+.catalogue-container {
+    padding: 50px;
+    background-color: #f4f4f4;
+  }
+  
+  .catalogue-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .catalogue-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .catalogue-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .catalogue-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .catalogue-item p {
+    font-size: 1rem;
+    color: #777;
+  }
+  

@@ -1,0 +1,25 @@
+.about-container {
+    padding: 50px;
+    background-color: #f4f4f4;
+  }
+  
+  .about-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .about-container p {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #444;
+  }
+  
+  .about-container p:nth-of-type(2) {
+    font-style: italic;
+  }
+  
+  .about-container p:nth-of-type(3) {
+    font-weight: bold;
+  }
+  

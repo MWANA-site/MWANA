@@ -1,0 +1,40 @@
+.don-container {
+    padding: 50px;
+    background-color: #e9f5e9;
+  }
+  
+  .don-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .don-container form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .don-container input {
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .don-container button {
+    padding: 10px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .don-container button:hover {
+    background-color: #45a049;
+  }
+  
